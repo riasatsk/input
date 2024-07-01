@@ -1,0 +1,1 @@
+# Python like input for Node.js
