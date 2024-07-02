@@ -1,14 +1,16 @@
-import * as readline from "node:readline/promises";
-import { stdin, stdout } from "node:process";
+const readline = require('node:readline/promises');
+const { stdin, stdout } = require('node:process');
 
 /**
  *
  * @param {string} param
- * @returns {string}
+ * @returns {Promise<string>}
  */
-export default async function input(param) {
+async function input(param) {
   const rl = readline.createInterface({ input: stdin, output: stdout });
   const answer = await rl.question(param);
   rl.close();
   return answer;
 }
+
+module.exports = input;
