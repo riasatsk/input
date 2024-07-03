@@ -10,7 +10,7 @@ To use `@riasatsk/input` in your project, you need to install it via npm or yarn
 
 ```bash
 npm install @riasatsk/input
-
+```
 
 
 
