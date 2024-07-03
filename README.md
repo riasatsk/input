@@ -15,11 +15,9 @@ npm install @riasatsk/input
 
 
 ```javascript
-
 import input from "@riasatsk/input";
 
 const name = await input("What is your name: ");
 
 console.log("Hello " + name + "!");
-
 ```
